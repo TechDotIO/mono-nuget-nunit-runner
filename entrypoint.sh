@@ -11,6 +11,6 @@ then
 	cat buildError.txt
 	exit -1
 else
-
-	mono ../packages/NUnit.ConsoleRunner*/tools/nunit3-console.exe --noh --where "$@" ./bin/Solution.dll
+	nunit_console=$(find /project/packages/ -wholename "/project/packages/NUnit.ConsoleRunner*/tools/nunit3-console.exe" -print -quit)
+	mono $nunit_console --noh --where "$@" ./bin/Solution.dll
 fi
