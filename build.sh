@@ -6,8 +6,8 @@ nuget update -self
 nuget config -set repositoryPath=/project/packages
 
 
-if [ packages.config ]; then
+if [ -f packages.config ]; then
     nuget install packages.config
 fi
 
-nuget install NUnit.ConsoleRunner -Version 3.6.0
+nuget install NUnit.ConsoleRunner

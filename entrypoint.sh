@@ -12,5 +12,5 @@ then
 	exit -1
 else
 
-	mono ../packages/NUnit.ConsoleRunner.3.6.0/tools/nunit3-console.exe --noh --where "$@" ./bin/Solution.dll
+	mono ../packages/NUnit.ConsoleRunner*/tools/nunit3-console.exe --noh --where "$@" ./bin/Solution.dll
 fi
