@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cp -a /project/answer/. /project/target
-
 cd /project/target
 
 xbuild /verbosity:quiet /nologo /p:AssemblyName=Solution /p:OutDir=bin/> buildError.txt
