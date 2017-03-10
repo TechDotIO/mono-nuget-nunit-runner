@@ -15,7 +15,7 @@ To use this runner for your project, edit the `codingame.yml` file and add the f
 ```yaml
     runner:
       name: codingame/mono-nuget-nunit-runner
-      version: 1.1.0-mono-4.8
+      version: 1.2.0-mono-4.8
 ```
 
 ## Example
