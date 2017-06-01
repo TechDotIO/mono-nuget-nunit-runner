@@ -13,9 +13,7 @@ The filter syntax can be found here: [https://github.com/nunit/docs/wiki/Test-Se
 To use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
 
 ```yaml
-    runner:
-      name: codingame/mono-nuget-nunit-runner
-      version: 1.2.0-mono-4.8
+    runner: techio/mono-nuget-nunit-runner:1.2.0-mono-4.8
 ```
 
 ## Example
