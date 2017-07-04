@@ -10,7 +10,7 @@ The filter syntax can be found here: [https://github.com/nunit/docs/wiki/Test-Se
 
 # How to Use
 
-To use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
+To use this runner for your project, edit the `techio.yml` file and add the following lines to your project:
 
 ```yaml
     runner: techio/mono-nuget-nunit-runner:1.2.0-mono-4.8
@@ -23,7 +23,7 @@ To use this runner for your project, edit the `codingame.yml` file and add the f
 ```
 .
 ├── about.md
-├── codingame.yml
+├── techio.yml
 ├── markdowns
 │   └── <YOUR_LESSONS>.md
 └── projects
